@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shlortcut icon" href="../imagenes/OIG1.ico">
+    <title>Formulario de Registro</title>
+    <link rel="stylesheet" href="../css/formulario02.css">
+</head>
+<body>
+    <form action="../php/insertaregistros1.php" method="post" enctype="multipart/form-data">
+        <label for="usuario">Nombre:</label>
+        <input type="text" placeholder="Escribe tu nombre" name="usuario" id="usuario" size="30" maxlength="30" required><br><br>
+
+        <label for="apellido">Apellidos:</label>
+        <input type="text" placeholder="Escribe tus apellidos" name="apellido" id="apellido" size="80" maxlength="80" required><br><br>
+
+        <label for="contrasena">Contraseña:</label>
+        <input type="password" placeholder="Escribe tu contraseña" name="contrasena" id="contrasena" maxlength="10" required><br><br>
+
+        <label for="curp">CURP:</label>
+        <input type="text" placeholder="Escribe tu CURP" name="curp" id="curp" size="18" maxlength="18" required><br><br>
+
+        <label for="email">Correo electrónico:</label>
+        <input type="email" placeholder="Escribe tu correo electrónico" name="email" id="email" required><br><br>
+
+        <input type="submit" name="enviar" value="Enviar">
+        <input type="reset" name="borrar" value="Borrar Información">
+    </form>
+    <a href="../index.php" class="btn"> Menu </a> 
+</body>
+</html>

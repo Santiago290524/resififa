@@ -1,0 +1,17 @@
+/* Estilos para la tabla */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #3e73d6;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #6852e4;
+        }
+        img {
+            max-width: 100px;
+            height: auto;
+        }

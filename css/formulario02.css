@@ -1,0 +1,22 @@
+body {
+
+    background-image: url('../imagenes/Imagen.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+
+            background-color: rgb(113, 110, 190); /* Fondo negro */
+            color: white; /* Texto blanco */
+        }
+
+        input[type="text"],
+        input[type="password"],
+        input[type="email"],
+        select {
+            background-color: rgb(255, 255, 255); /* Casillas naranjas */
+            color: rgb(202, 113, 113); /* Texto negro */
+            border: 1px solid white; /* Borde blanco */
+            padding: 5px;
+            margin-bottom: 10px;
+}

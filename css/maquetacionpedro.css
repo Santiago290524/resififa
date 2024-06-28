@@ -1,0 +1,55 @@
+body{
+
+    background-image: url('../imagenes/15383027005263.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+
+    margin: 0%;
+}
+
+
+ /* cambia el color de fondo del sitio  */
+body{ 
+    background-color:#000000;
+    text-align: center;
+}
+
+.titulo{ /* titulo principal del sitio */
+    background-color: rgb(19, 62, 87);
+    color: #090909;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.info{  /* informacion principal del sitio */
+    color: #0c0c0c;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.img{  /* imagen principal del texto */
+    width: 35%;
+    height: 20%;
+    margin: 4.5em;
+
+}
+
+.contacto{  /* contacto de la empresa  */
+    color: #000000;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.btn{  /* links  */
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #fff;
+    color:#1a97a0;
+    text-decoration: none;
+    background: #3d6268;
+    text-align: center;
+    font-family: sans-serif;
+}

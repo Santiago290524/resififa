@@ -1,0 +1,166 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> <!-- la etiqueta DOCTYPE indica al navegador la version HTML con la que se diseño el codigo-->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es" > <!--Se utliza para representar la raiz del documento-->
+
+<head>  <!--Se utliza para colocar toda la infromacion general de la nformación general del la pagina (metadato)-->
+    <title>Taller Básquetbol</title>  <!--Se utiliza para colocarle un titulo a la paguina web-->
+    <meta charset="UTF-8">  <!--Se utiliza para la codificion del codigo y se represente de forma correcta-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"&amp; gt;> <!--"Name" sirve para darle nombre a los metadatos y "content" para dar el valor de dichos metadatos-->
+    <link rel= "stylesheet" type="text/css" href="../css/color2.css"/>
+    <link rel= "stylesheet" type="text/css" href="../css/tit.css"/>
+    <link rel= "stylesheet" type="text/css" href="../css/footer.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/barranav.css">
+    <link rel="stylesheet" type="text/css" href="../css/ta.css">
+    <link rel="icon" type="image/x-icon" href="../Conalep-logo.ico"/> <!--Favicon enlace-->
+</head>
+
+<body class="grid-container"> <!--Se utiliza para crear la estructura base de la pagina-->
+  
+  <header class="header">  <!--Se utliza para crear una seccion o encabezado de elementos de busqueda dentro de la pagina-->
+    <div class="header__superior">  <!--Se utlizo para crear secciones divididas dentro de la pagina-->
+        <div class="logo">
+            <img src="../imagenes/conalep-logo.png" alt="">  <!--Sirve para insertar una imagen dentro de la pagina-->
+        </div>
+        <div class="search">
+            <input type="search" placeholder="¿Qué deseas buscar?">  <!--Se utilizo para que los usuarios introduzcan datos de busqueda a travez de el-->
+        </div>
+    </div>
+
+    <div class="container__menu">
+
+        <div class="menu">
+            <nav>  <!--Sirve para crear la seccion de bloque en la que se coloca la barra de navegación-->
+                <ul>  <!--Sirve para crear una lsita con la que se creo la estructura base del indice-->
+                    <li><a href="../index.php" id="selected"></a></li>  <!--Enlace a inico de la pagina-->
+                    <li><a href="#">Básquetbol</a><!--La etiqueta "li" sirve para dar formato a la información enlistada-->
+                        <ul>
+                            <li><a href="../html/basquet.html">Acerca de</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Fútbol</a>
+                         <ul>
+                            <li><a href="../html/fut.html">Acerca de</a></li>
+                         </ul>
+                    </li>
+                    <li><a href="#">Voleibol</a>
+                        <ul>
+                            <li><a href="../html/volei.html">Acerca de</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Robótica</a>
+                        <ul>
+                            <li><a href="../html/robot.html">Acerca de</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Ajedrez</a>
+                        <ul>
+                            <li><a href="../html/ajed1.html">Acerca de</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Canto y guitarra</a>
+                        <ul>
+                            <li><a href="../html/canygui.html">Acerca de</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Baile</a>
+                        <ul>
+                            <li><a href="../html/baile.html">Acerca de</a></li>
+                        </ul></li>
+                    <li><a href="#">Natación</a>
+                            <ul>
+                                <li><a href="../html/natac.html">Acerca de</a></li>
+                            </ul>
+                        </li>
+                    <li><a href="../php-login/index.php">Inscripciones</a></li>
+                    <li><a href="../html/car.html">Tienda</a></li>
+                    <li><a href="../html/pagre.html">Registros</a></li>
+    
+                </ul>
+            </nav>
+        </div>
+    </div>
+  </header>
+
+  <nav class="navbar"> 
+    <h1>Taller Básquetbol</h1>  <!--Se utilizo para crear el titulo principal de la información-->
+  </nav>
+
+  <aside class="sidebar">   <!--Se utilizo para crear un bloque en la parte izquierda de la pagina, en la cual se coloco información adicional de la pagina-->
+    <h1>¡El trabajo duro tarde o temprano vence el talento si no se esfuerza!</h1>  
+    <img src="../imagenes/r.png" alt="">  
+    <h2>ROSETTA</h2>  <!--Se utilizo para crear subtitulos en la informacion-->
+  </aside>
+
+  <article class="main">  <!--Se utiliza para crear una sección de bloque llamada "articulo" la cual sera la seccion principal de información-->
+      
+      <div class="noticia">
+        <img class="all" src="../imagenes/basquetbol.jpg"><!--Formato de imagen "jpg"-->
+        <div class="reset"></div>
+      </div>
+      <div class="noticia">
+        <aside><aside><h2>Objetivo</h2></br>
+            <p>Hacer actividad física, detectar talentos y ayudar con el desarrollo integral de los alumnos.</p></br></aside></aside>  <!---->
+        <div class="reset"></div>
+      </div>
+      
+      <div class="noticia">
+        <aside>    <h2>Horario</h2><br/>
+            <table class="mas" border="1">  <!--Se utilizo para la creacion de la estrucutra base de una tabla-->
+                <tr>  <!--"th" se utilizo para crear filas dentro de la tabla-->
+                    <th scope="row">Turno</th>  <!--"th" se utilizo para crear una celda como encabezado de la tabla-->
+                    <th scope="row">Dias</th>
+                    <th scope="row">Hora</th>
+                </tr>
+                <tr>
+                    <td>Matutino</td>  <!--La etiqueta "td" se utilizo para crear celdas con datos-->
+                    <td>Martes </br>y</br>Viernes</td>
+                    <td>11:00 -</br> 1:00</td>
+                </tr>
+                <tr>
+                    <td>Vespertino</td>
+                    <td>Martes </br>y</br>Viernes</td>
+                    <td>1:30 -</br> 3:30</td>
+                </tr>
+            </table></br></aside>
+        <div class="reset"></div>
+      </div>  
+      
+      <div class="noticia">
+        <aside><h2>Actividades que se realizan</h2></br>
+            <ul>
+                <li>Fundamentos de tiro.</li>
+                <li>Bote y pase.</li>
+            </ul></aside>
+        <div class="reset"></div>
+      </div>
+    
+      <div class="noticia">
+        <img class="derecha" src="../imagenes/firmas.jpeg">
+        <aside><h2>Imparte</h2>
+        </br><p>Profesor David Alfonso Soto Medina</p></br>  <!--la etiqueta "br" se utilizo para crear saltos de pagina, es decir, para separar el la informacion-->
+        <h4>Motivo por el cual imparte el taller</h4>  <!--la etiqueta "h4" utilizo para crear un subtitulo para acomodar mejor los subtemas de la pagina-->
+        <img src="">
+        </br><p1>" Ayudar a la comunidad del municipio. "</p1></aside>
+        <div class="reset"></div>
+      </div>
+
+  </article>
+  
+  <footer class="footer">  <!--Footer sirve para crear una secion de bloque en la parte baja en la pagina web, en este caso se utlizo para crear la seccion "contactanos" en la que se encuentan todos los datos de las programadoras-->
+    <div class="contenedor-footer">
+        <div class="content-foo">
+            <h4>.</h4>
+            <a href="../html/programadoras.html"> <b>Programadoras</b> </a> </li>  <!--La etiqueta "a" sirve para crear un hipervinculo a otraspaginas dentro del codigo, en este caso se utiliza para direccionar al usuario a la pagina de "programadoras"-->
+        </div>
+        <div class="content-foo">
+            <h4>.</h4>
+        </div>
+        <div class="content-foo">
+            <h4>.</h4>
+            <a href="../html/contactos.html"> <b>Contáctanos</b> </a> </li>
+        </div>
+    </div>
+    <h6 class="titulo-final">&copy; González Baza Vanessa | Labastida Morales Jade Ixchel | Pedraza Ocampo Dulce Yoselin</h6>  <!--Sirve para colocar un subtitulo en la informacion adicional de forma jerarquica desde h1 a h6-->
+  </footer>
+</body>
+</html>

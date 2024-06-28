@@ -1,0 +1,107 @@
+body {
+    background-image: url('../imagenes/Imagen.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #1a1a66;
+    color: white;
+    padding: 20px;
+}
+
+ul.navbar {
+    width: 190px;
+    list-style-type: none;
+    position:absolute;
+    margin: 0;
+    padding: 0;
+}
+
+ul.navbar li {
+    display: block;
+    background-color: rgb(107, 122, 189);
+    padding: 1em 0.2em;
+    border-right: 20px solid black;
+    text-decoration: none;
+    margin: 0.6em;
+}
+
+ul.navbar li a {
+    display: block;
+    text-decoration: none;
+    border-radius: 2em;
+}
+
+ul.navbar {
+    position: absolute;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Contenido principal */
+main {
+    padding: 20px;
+}
+
+.slideshow {
+    display: flex;
+    overflow: hidden;
+    max-width: 600px; 
+    margin: 0 auto;
+}
+
+.slideshow img {
+    width: 100%;
+    transition: transform 0.5s ease; 
+}
+
+.slideshow:hover img {
+    transform: scale(1.1); 
+}
+
+footer {
+    background-color: #ff3333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.btn{  /* links  */
+    
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 40px;
+    border: 3px solid #fff;
+    color:#fff;
+    text-decoration: none;
+    background: #3d6268;
+    text-align: center;
+    font-family: sans-serif;
+}
+.slideshow {
+    display: flex;
+    overflow: hidden;
+    max-width: 600px; 
+    margin: 1 auto;
+}
+
+.slideshow .btn {
+    width: 200%;
+    transition: transform 0.5s ease; 
+}
+
+.slideshow:hover .btn {
+    transform: scale(1.1); 
+}

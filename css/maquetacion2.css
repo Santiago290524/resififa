@@ -1,0 +1,51 @@
+*{
+    margin: 0%;
+}
+
+body{ 
+    background-color:#138b85;
+    text-align: center;
+    background-image: url('../imagenes/cris.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.titulo{ /* titulo principal del sitio */
+    background-color: rgb(8, 208, 88);
+    color: #090909;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.info{  /* informacion principal del sitio */
+    color: #0c0c0c;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.img{  /* imagen principal del texto */
+    width: 35%;
+    height: 20%;
+    margin: 4.5em;
+
+}
+
+.contacto{  /* contacto de la empresa  */
+    color: #000000;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.btn{  /* links  */
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #fff;
+    color:#fff;
+    text-decoration: none;
+    background: #049c19;
+    text-align: center;
+    font-family: sans-serif;
+}

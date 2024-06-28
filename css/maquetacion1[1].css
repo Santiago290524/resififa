@@ -1,0 +1,61 @@
+body{
+    background-image: url('../imagenes/fotofondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+
+    margin: 0;
+    padding: 0;
+}
+#contenedor{     /*Para llamar a un selector de id se usa el #*/
+    width: 1200px;  /*Ancho del contenedor*/
+    height: 600px;   /*Alto del contenedor*/
+    background: hsl(249, 82%, 44%);
+    margin: 0.5em auto;   /*Para centrar el canvas, el color gris de fondo de la pagina*/
+    padding: 0.5em;
+}
+#header{
+    height: 10%;
+    background: #5527d3;
+    margin: 1em;
+
+}
+/*#nav{
+    height: 10%;
+    background: #F2FAFE;
+    margin: 1em;
+} */
+#contenido{
+    height: 53%;
+    background: #2b1ed6;
+    margin: 1em;
+}
+#footer{
+    height: 10%;
+    background: #3327da;
+    margin: 1em;
+}
+#section{
+    height: 95%;
+    width: 71%;
+    background: #3d1ec7;
+    float: left;
+    margin: 0.5 em;
+}
+#aside{
+    height: 95%;
+    width: 25%;
+    background: #1648b4;
+    float: right;
+    margin: 0.5 em;
+}
+.articulo {                /*Estoy llamando a la clase llamada artiulo*/
+width: 96%;
+height: 20%;
+margin: 1em;
+}
+.imagenes {         /*Estoy llamando a la clase llamada artiulo*/
+    width: 30%;
+    height: 10%;
+    margin: 3.5em; }
